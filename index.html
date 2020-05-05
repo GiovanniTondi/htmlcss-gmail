@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>BooleanMail</title>
+</head>
+
+<body>
+    <!-- Contenitore per tutta la pagina -->
+    <div class="container">
+
+        <!-- Intestazione -->
+        <header>
+            <div class="">
+                <img id="logo" src="img/gmail.png" alt="Logo email">
+                <span>Bmail</span>
+            </div>
+            <div class="search">
+                <form>
+                    <input type="text" name="searchtext" placeholder="Cerca">
+                    <input type="submit" value="VAI">
+                </form>
+            </div>
+            <div>
+                Hai <span id="notifica">30</span> email non lette!
+            </div>
+        </header>
+        <!-- Main -->
+        <main>
+            <section>
+                <div class="messaggio unread">
+                    <input type="checkbox"> &#10031; <span class="oggetto">Oggetto della email</span> - <span class="testomail">testo della email...</span>
+                </div>
+                <div class="messaggio read">
+                    <input type="checkbox"> &#10031; <span class="oggetto">Oggetto della email</span> - <span class="testomail">testo della email...</span>
+                </div>
+                <div class="messaggio unread">
+                    <input type="checkbox"> &#10031; <span class="oggetto">Oggetto della email</span> - <span class="testomail">testo della email...</span>
+                </div>
+                <div class="messaggio unread checked">
+                    <input type="checkbox" checked> &#10031; <span class="oggetto">Oggetto della email</span> - <span class="testomail">testo della email...</span>
+                </div>
+            </section>
+        </main>
+        <!-- footer -->
+
+        <footer>
+            BMail <span id="poweredby">powered by Giovanni.</span>
+        </footer>
+
+    </div>
+</body>
+
+</html>
